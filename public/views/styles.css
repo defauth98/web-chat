@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-family: 400;
+  font-weight: 500;
+}
+
+body {
+  background-color: #c5c5c5;
+  padding: 2rem;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px;
+}
+
+button {
+  padding: 5px;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px;
+}
+
+.online-user-list {
+  margin-bottom: 2rem;
+  list-style: circle;
+}
+
+.online-user-list li {
+  font-size: 1.4rem;
+  margin-left: 1.4rem;
+}
+
+.nickname-form {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.new-message-form {
+  position: absolute;
+  top: 85px;
+  right: 300px;
+}
+
+.list-message {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.list-message li {
+  margin-bottom: 0.4rem;
+  background-color: rgba(116, 104, 104, 0.2);
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
