@@ -5,7 +5,11 @@
   </a>
 </p>
 
-**Descrição**
+<p align="center">
+  <img src=".github/web-chat.gif" width="900rem" />
+</p>
+
+### :computer: Projeto
 
 Chat em tempo real usando Socket.io e arquitetura MVC.
 
