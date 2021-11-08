@@ -4,6 +4,8 @@ const path = require('path');
 const http = require('http');
 const socket = require('socket.io');
 
+require('dotenv/config');
+
 const app = express();
 const PORT = 3000;
 
@@ -11,7 +13,7 @@ const server = http.createServer(app);
 
 const io = socket(server, {
   cors: {
-    origin: 'http://localhost:3000',
+    origin: process.env.URL,
     methods: ['GET', 'POST'],
   },
 });
@@ -25,10 +27,10 @@ app.set('view engine', 'ejs');
 app.set('views', './public/views');
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: process.env.URL,
 };
 
 app.use(cors(corsOptions));
 app.get('/', chatController.getAll);
 
-server.listen(PORT, () => console.log(`server running on http://localhost:${PORT}`));
+server.listen(PORT, () => console.log(`server running on ${process.env.URL}:${PORT}`));
