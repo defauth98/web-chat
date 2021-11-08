@@ -33,7 +33,7 @@ ul {
 
 input {
   padding: 0.8rem;
-  width: 222px;
+  width: 20%;
   background-color: #fff;
   border-radius: 2px;
   border: 1px #c5c5c5 solid;
@@ -41,10 +41,11 @@ input {
 
 button {
   padding: 0.8rem;
-  width: 100px;
+  width: 8%;
   background-color: #fff;
   border: 1px solid #c5c5c5;
   border-radius: 2px;
+  cursor: pointer;
 }
 
 .nickname-form {
@@ -80,6 +81,7 @@ button {
 
 .online-user-list li {
   font-size: 1rem;
+  font-family: 600;
 }
 
 .chat {
@@ -147,5 +149,5 @@ button {
   border-bottom-right-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   color: black;
-  font-weight: bold;
+  font-weight: 600;
 }

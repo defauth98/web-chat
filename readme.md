@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src=".github/web-chat.gif" width="900rem" />
+  <img src=".github/web-chat.gif" width="1000rem" />
 </p>
 
 ### :computer: Projeto
